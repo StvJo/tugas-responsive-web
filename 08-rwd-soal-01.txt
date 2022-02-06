@@ -1,0 +1,22 @@
+Soal - 01
+Kamu diminta untuk melakukan analisa sederhana terhadap beberapa masalah dan tuliskan jawaban kamu di dalam file 08-rwd-soal-01.txt.
+
+Apa itu responsive web design?
+Sebutkan apa saja relative units yang dimiliki oleh CSS?
+Apa itu breakpoint? Bagaimana cara kita membuat hal tersebut?
+Apa yang dapat kita gunakan untuk memanipulasi tata letak suatu element dalam bidang 1 dimensi?
+Apa yang dapat kita gunakan untuk memanipulasi tata letak suatu element dalam bidang 2 dimensi?
+
+
+
+1. an approach to web design that aims to make web pages render well on a variety of devices and window or screen sizes from minimum to maximum display size to ensure usability and satisfaction.\
+2. em, ex, ch, rem, vw, vh, vmin, vmax, %.
+3. are points where the website content responds according to the device width, allowing you to show the best possible layout to the user.
+e.g:
+@ media only screen and (min-width: your pixel) {
+    //your tag element html and your css
+}
+
+4. flexbox.
+5. grid.
+
